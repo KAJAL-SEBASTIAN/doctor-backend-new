@@ -1,4 +1,5 @@
 const jsonServer= require('json-server')
+const cors = require('cors');
 
 const restServer = jsonServer.create()
 
